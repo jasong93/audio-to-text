@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Text-to-Speech Extension",
+  "version": "1.0",
+  "permissions": ["tts", "audioCapture"],
+  "background": {
+      "service_worker": "background.js"
+  },
+  "action": {
+      "default_popup": "popup.html"
+  }
+}

@@ -1,2 +1,2 @@
 # audio-to-text
-an extension to markdown (or translate) into text type
+an extension to mark down (or translate) audio to text
