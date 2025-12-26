@@ -1,12 +1,22 @@
 {
   "manifest_version": 3,
-  "name": "Text-to-Speech Extension",
+  "name": "Audio to Text Extension",
   "version": "1.0",
-  "permissions": ["tts", "audioCapture"],
+  "permissions": [
+    "tts",
+    "audioCapture",
+    "audio",
+    "tabCapture",
+    "scripting",
+    "activeTab"
+  ],
   "background": {
-      "service_worker": "background.js"
+    "service_worker": "background.js"
   },
   "action": {
-      "default_popup": "popup.html"
-  }
+    "default_popup": "popup.html"
+  },
+  "host_permissions": [
+    "<all_urls>"
+  ]
 }
